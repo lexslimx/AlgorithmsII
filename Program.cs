@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgorithmsII;
 
-Console.WriteLine("Hello, World!");
-SearchInRotatedArray searchInRotatedArray = new SearchInRotatedArray();
-searchInRotatedArray.Search(new int[] { 1,3} ,1);
+MergeSort mergeSort = new MergeSort();
+var ans = mergeSort.Sort(new int[] { 1,0,1,0,2,1,2,3,2});
+for(var i = 0; i < ans.Length; i ++){
+    Console.Write(ans[i]);
+}

@@ -8,7 +8,7 @@ namespace AlgorithmsII
 {
     public class FindPeakElement
     {
-        public int FindPeakElement(int[] nums)
+        public int FindPeakElements(int[] nums)
         {
             return search(nums, 0, nums.Length - 1);
         }
